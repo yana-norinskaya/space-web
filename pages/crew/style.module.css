@@ -1,6 +1,0 @@
-.crew_bg{
-    @apply min-h-[100vh] bg-cover bg-no-repeat bg-center md:bg-[url('../../app/assets/crew/background-crew-desktop.jpg')]  sm:bg-[url('../../app/assets/crew/background-crew-tablet.jpg')]
-}
-.crew{
-    @apply md:px-20 lg:px-32 md:max-lg:py-10
-}

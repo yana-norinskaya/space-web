@@ -3,8 +3,9 @@ import {Header, Meta, Planets, Title} from "@/app/components";
 import { planetsData } from "./mockData";
 
 import styles from "./style.module.css";
+import {FC} from "react";
 
-export default function Destination() {
+export const Destination: FC = () => {
     return (
         <>
         <Meta title="Destination" description="Pick your destination"/>

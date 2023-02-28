@@ -3,8 +3,9 @@ import {Header, Meta, TechnologiesInfo, Title} from "@/app/components";
 import { dataTechnologies } from "./data";
 
 import styles from "./style.module.css";
+import {FC} from "react";
 
-export default function Technologies() {
+export const Technologies: FC = () => {
     return (
         <>
         <Meta title="Technologies" description="Space launch 101"/>

@@ -1,5 +1,5 @@
 .destination_bg {
-    @apply min-h-[100vh] bg-cover bg-no-repeat bg-center md:bg-[url('../../app/assets/dest/background-destination-desktop.jpg')] sm:bg-[url('../../app/assets/dest/background-destination-tablet.jpg')]
+    @apply min-h-[100vh] bg-cover bg-no-repeat bg-center md:bg-[url('../../assets/dest/background-destination-desktop.jpg')] sm:bg-[url('../../assets/dest/background-destination-tablet.jpg')]
 }
 .destination{
     @apply md:px-20 lg:px-32 md:max-lg:py-10 pb-10

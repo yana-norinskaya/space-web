@@ -1,10 +1,12 @@
+import {FC} from "react";
+
 import {Header, CrewInfo, Title, Meta} from "@/app/components";
 
 import { crewData } from "./crewData";
 
 import styles from "./style.module.css";
 
-export default function Crew(){
+export const Crew: FC = () => {
     return (
         <>
         <Meta title="Crew" description="Meet your crew"/>

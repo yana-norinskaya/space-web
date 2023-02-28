@@ -1,5 +1,5 @@
 .main_bg {
-    @apply min-h-[100vh] bg-cover bg-no-repeat bg-center md:bg-[url('../app/assets/home/background-home-desktop.jpg')]  sm:bg-[url('../app/assets/home/background-home-tablet.jpg')]
+    @apply min-h-[100vh] bg-cover bg-no-repeat bg-center md:bg-[url('../../assets/home/background-home-desktop.jpg')]  sm:bg-[url('../../assets/home/background-home-tablet.jpg')]
 }
 
 .main{
