@@ -24,7 +24,7 @@ export const Main: FC = () => {
                         world experience!
                     </p>
                 </div>
-                <Link href="/app/components/Destination">
+                <Link href="/Destination">
                     <div className={styles.explore}>explore</div>
                 </Link>
             </section>
