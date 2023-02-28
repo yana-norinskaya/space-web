@@ -1,0 +1,19 @@
+.main_bg {
+    @apply min-h-[100vh] bg-cover bg-no-repeat bg-center md:bg-[url('../app/assets/home/background-home-desktop.jpg')]  sm:bg-[url('../app/assets/home/background-home-tablet.jpg')]
+}
+
+.main{
+    @apply flex items-center sm:justify-center md:max-lg:gap-20 lg:sm:justify-between sm:p-10 md:max-lg:mt-20 lg:p-20 lg:px-40 sm:max-md:flex-col
+}
+.title{
+    @apply uppercase text-slate-400 tracking-[0.1em] leading-tight sm:max-md:text-xl text-2xl sm:max-md:text-center
+}
+.title > span {
+    @apply block uppercase sm:max-md:text-8xl md:text-12xl text-white font-light
+}
+.description{
+    @apply text-slate-400 md:w-[520px] leading-8 pt-5 sm:max-md:text-center sm:max-md:text-sm sm:max-md:leading-7
+}
+.explore{
+    @apply h-[200px] w-[200px] bg-slate-100 rounded-[50%] flex items-center justify-center cursor-pointer uppercase text-3xl text-slate-800 transition hover:shadow-outline sm:mt-20
+}

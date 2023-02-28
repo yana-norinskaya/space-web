@@ -1,0 +1,24 @@
+.crew{
+    @apply grid md:grid-cols-2 items-center mx-10 gap-10 sm:max-md:flex-col
+}
+.crew_info{
+    @apply sm:max-md:flex-col sm:max-md:flex sm:max-md:items-center
+}
+.title{
+    @apply leading-tight text-whiteTransparent text-3xl uppercase sm:max-md:text-center
+}
+.name{
+    @apply leading-tight text-white text-5xl font-light uppercase sm:max-md:text-center font-mono
+}
+.description{
+    @apply text-light leading-8 pt-5 sm:max-md:text-center
+}
+.wrap_slide{
+    @apply flex mt-4 sm:max-md:-order-1 sm:max-md:mb-5 gap-5
+}
+.slide{
+    @apply w-4 h-4 rounded-xl bg-slate-400 cursor-pointer transition-all hover:bg-white
+}
+.active_slide{
+    @apply w-4 h-4 rounded-xl bg-white cursor-pointer
+}

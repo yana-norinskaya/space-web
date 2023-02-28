@@ -1,0 +1,24 @@
+.nav_mobile{
+    @apply bg-nav backdrop-blur-lg flex lg:px-10 sm:max-md:absolute sm:max-md:py-10 sm:max-md:w-[300px] sm:max-md:h-full sm:max-md:bottom-0 sm:max-md:right-0 z-10 animate-navbar-open
+}
+.nav{
+    @apply bg-nav backdrop-blur-lg flex lg:px-10 md:px-7 sm:max-md:hidden animate-toggleOpacity
+}
+.nav_list{
+    @apply flex sm:max-md:flex-col sm:max-md:self-center
+}
+.nav_list > li {
+    @apply py-7 uppercase font-oswald text-primary text-lg px-7 md:text-sm lg:text-lg
+}
+.nav_list > li > a{
+    @apply py-7 relative
+}
+.nav_list > li > a > span{
+    @apply font-bold
+}
+.active::before{
+    @apply bg-white bottom-0 content-[""] h-1 w-full absolute delay-75 animate-link
+}
+.close{
+    @apply sm:max-md:h-5 sm:max-md:translate-x-[250px] transition-all sm:max-md:block sm:max-md:cursor-pointer sm:max-md:hover:opacity-60 md:hidden lg:hidden
+}

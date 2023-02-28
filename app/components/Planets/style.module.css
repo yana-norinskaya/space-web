@@ -1,0 +1,34 @@
+.planets{
+    @apply flex justify-between items-center mx-10 lg:gap-32 md:gap-10 sm:max-md:flex-col
+}
+.img{
+    @apply animate-planet lg:w-[400px] sm:w-[320px]
+}
+.info{
+    @apply flex flex-col self-start justify-between sm:max-md:mt-20
+}
+.wrap_name{
+    @apply flex md:justify-start uppercase sm:justify-center cursor-pointer
+}
+
+.title{
+    @apply leading-tight text-white text-8xl uppercase sm:max-md:text-5xl  sm:max-md:text-center sm:max-md:pt-5
+}
+.description{
+    @apply text-light mt-3 sm:max-md:text-center sm:max-md:text-sm sm:max-md:pt-3
+}
+.distance{
+    @apply grid grid-cols-2 border-t-[1px] border-light items-center mt-4 pt-2
+}
+.distance_title{
+    @apply text-white pt-4 sm:max-md:text-center
+}
+.distance_txt{
+    @apply text-light text-lg sm:max-md:text-center
+}
+.active_name{
+    @apply border-b-2 border-light text-light mr-5
+}
+.name{
+    @apply text-light pb-4 mr-5
+}

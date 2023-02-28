@@ -1,0 +1,10 @@
+.header {
+    @apply flex items-center justify-between sm:max-md:p-10 lg:py-10 pl-20 md:pt-0
+}
+
+.line {
+    @apply w-[800px] h-[0.5px] absolute translate-x-14 bg-slate-300 opacity-40 lg:block md:hidden sm:hidden
+}
+.hamburger{
+    @apply cursor-pointer transition-all hover:opacity-60 md:hidden
+}

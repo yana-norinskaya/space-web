@@ -1,0 +1,6 @@
+.title{
+    @apply text-white pb-20 uppercase tracking-[0.1em] leading-tight sm:max-md:text-xl text-2xl sm:max-md:text-center
+}
+.title > span {
+    @apply text-light font-oswald font-bold
+}

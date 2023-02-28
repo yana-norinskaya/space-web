@@ -1,0 +1,33 @@
+.technology{
+    @apply grid md:grid-cols-md lg:grid-cols-custom lg:grid-rows-[500px] gap-10 items-center sm:flex-col
+}
+.wrap{
+    @apply flex gap-7 sm:max-md:flex-col sm:max-md:items-center
+}
+.slide{
+    @apply flex flex-col gap-9 sm:max-md:flex-row
+}
+.slide_item{
+    @apply h-16 w-16 border-[1px] border-whiteTransparent transition-all hover:border-white rounded-[50%] flex items-center justify-center text-2xl  cursor-pointer sm:max-md:h-10 sm:max-md:w-10
+}
+.slide_active{
+    @apply bg-white text-black
+}
+.title{
+    @apply text-whiteTransparent uppercase sm:max-md:text-center
+}
+.name{
+    @apply text-white text-5xl uppercase leading-tight sm:max-md:text-center sm:max-md:text-4xl sm:max-md:pt-3
+}
+.description{
+    @apply text-light pt-5 leading-7 sm:max-md:text-center sm:max-md:text-sm sm:max-md:px-5
+}
+.wrap_img{
+    @apply justify-self-center self-stretch sm:max-md:-order-1
+}
+.img_lg{
+    @apply lg:max-w-[400px] sm:max-md:hidden
+}
+.img_sm{
+    @apply md:hidden
+}
