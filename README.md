@@ -4,6 +4,7 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 
 ## screenshot
 
-<div>
-  <img src="./app/assets/screen_space1.jpg"/>
+<div style={{display: "flex"}}>
+  <img src="./app/assets/screen_mobile.jpg"/>
+   <img src="./app/assets/screen_space1.jpg"/>
 </div>
